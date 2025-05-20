@@ -4,19 +4,19 @@ const menuData = {
         {
             id: 1,
             name: "经典鸡尾酒",
-            image: "https://s21.ax1x.com/2025/05/20/pEx1aZT.webp",
+            image: "https://s21.ax1x.com/2025/05/20/pEx8gUO.webp",
             description: "传统经典，永不过时的鸡尾酒选择"
         },
         {
             id: 2,
             name: "来生专属",
-            image: "https://s21.ax1x.com/2025/05/20/pEx1ddU.webp",
+            image: "https://s21.ax1x.com/2025/05/20/pEx8yb6.webp",
             description: "独家配方，只在来生Afterlife才能品尝的特调"
         },
         {
             id: 3,
             name: "季节限定",
-            image: "https://s21.ax1x.com/2025/05/20/pEx1woF.webp",
+            image: "https://s21.ax1x.com/2025/05/20/pEx8h2d.webp",
             description: "限时供应，把握当季最佳风味"
         }
     ],
@@ -25,9 +25,9 @@ const menuData = {
         {
             id: 101,
             categoryId: 1,
-            name: "金汤力",
+            name: "金汤力（新手友好）",
             price: 20,
-            image: "images/gin-tonic.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYGDI.webp",
             description: "清爽提神的经典调酒，金酒的草本香气与汤力水的苦甜完美融合",
             ingredients: "金酒、汤力水"
         },
@@ -36,7 +36,7 @@ const menuData = {
             categoryId: 1,
             name: "冰与火之歌",
             price: 25,
-            image: "images/game_of_throne.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYJbt.webp",
             description: "冰与火的完美融合，金酒的清爽与蓝橙利口酒的甜美，柠檬汁带来酸爽，红石榴糖浆点缀如火焰",
             ingredients: "金酒、蓝橙利口酒、柠檬汁、苏打水、红石榴糖浆"
         },
@@ -45,7 +45,7 @@ const menuData = {
             categoryId: 1,
             name: "青珊瑚",
             price: 25,
-            image: "https://s21.ax1x.com/2025/05/20/pEx1zWj.webp",
+            image: "https://s21.ax1x.com/2025/05/20/pExYtVP.webp",
             description: "荣获1950年第二次日本饮料大赛冠军的鸡尾酒，由名古屋市调酒师鹿野彦司先生创造。清新薄荷与金酒的绝妙组合，柠檬汁增添一丝酸爽，视觉与味觉的双重享受",
             ingredients: "金酒、绿薄荷利口酒、柠檬汁"
         },
@@ -54,7 +54,7 @@ const menuData = {
             categoryId: 1,
             name: "巴拉莱卡",
             price: 25,
-            image: "images/balalaika.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYU58.webp",
             description: "俄罗斯风情的经典鸡尾酒，伏特加的烈性与君度的甜香，柠檬汁带来清新平衡",
             ingredients: "伏特加、君度、柠檬汁"
         },
@@ -63,16 +63,16 @@ const menuData = {
             categoryId: 1,
             name: "黑俄罗斯",
             price: 25,
-            image: "images/black-russian.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYNUf.webp",
             description: "浓郁的咖啡香气与伏特加的完美结合，丝滑口感中蕴含着俄罗斯的神秘气息",
             ingredients: "伏特加、甘露咖啡利口酒"
         },
         {
             id: 106,
             categoryId: 1,
-            name: "自由古巴",
+            name: "自由古巴（新手友好）",
             price: 20,
-            image: "images/cuba-libre.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYw8g.webp",
             description: "加勒比海的热情与自由，朗姆酒的醇厚与可乐的甜美，青柠汁增添一丝清新",
             ingredients: "朗姆、可乐、青柠汁"
         },
@@ -81,7 +81,7 @@ const menuData = {
             categoryId: 1,
             name: "止痛药",
             price: 25,
-            image: "images/painkiller.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExUWPf.webp",
             description: "热带风情的经典调酒，朗姆酒的醇厚与果汁的甜美，椰浆增添丝滑口感",
             ingredients: "朗姆、橙汁、菠萝汁、椰浆"
         },
@@ -90,7 +90,7 @@ const menuData = {
             categoryId: 1,
             name: "海明威特调",
             price: 25,
-            image: "images/hemingway-special.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExU2IP.webp",
             description: "文学大师最爱的鸡尾酒，朗姆酒的醇厚与野樱桃的甜美，柑橘类果汁带来清新平衡",
             ingredients: "朗姆、野樱桃酒、青柠汁、葡萄柚汁"
         },
@@ -99,14 +99,14 @@ const menuData = {
             categoryId: 1,
             name: "威士忌酸",
             price: 25,
-            image: "images/whiskey-sour.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExU4xg.webp",
             description: "经典美式鸡尾酒，波本威士忌的醇厚与柠檬汁的酸爽，糖浆平衡口感",
             ingredients: "波本威士忌、柠檬汁、糖浆"
         },
         {
             id: 110,
             categoryId: 1,
-            name: "龙舌兰日出",
+            name: "龙舌兰日出（新手友好）",
             price: 25,
             image: "images/tequila-sunrise.jpg",
             description: "如同墨西哥日出般绚丽的层次感，龙舌兰的烈性与橙汁的甜美，红石榴糖浆点缀如朝霞",
@@ -134,16 +134,16 @@ const menuData = {
         {
             id: 201,
             categoryId: 2,
-            name: "大卫马丁内斯",
+            name: "大卫·马丁内斯",
             price: 30,
-            image: "images/david-martinez.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExUcVI.webp",
             description: "大卫·马丁内斯，生的伟大，死的光荣。子弹杯里伏特加加冰,兑小可乐。大卫不喜欢碳酸饮料，可乐是给露西加的，她喜欢。",
             ingredients: "伏特加、柠檬汁、蓝可乐"
         },
         {
             id: 202,
             categoryId: 2,
-            name: "杰克威尔斯",
+            name: "杰克·威尔斯",
             price: 30,
             image: "images/jackie-welles.jpg",
             description: "夜城霓虹下的烈焰灵魂，酸爽清冽带着“一点爱”，致敬夜之城那位真正的大人物",
@@ -152,9 +152,9 @@ const menuData = {
         {
             id: 203,
             categoryId: 2,
-            name: "强尼银手",
+            name: "强尼·银手",
             price: 35,
-            image: "images/johnny-silverhand.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pEx8f8H.webp",
             description: "如同传奇摇滚歌手的个性，龙舌兰的烈性与墨西哥啤酒的清爽，辣椒带来的刺激如同银手的反叛精神",
             ingredients: "龙舌兰、龙舌兰糖浆、苦精、墨西哥啤酒、辣椒"
         },
@@ -164,7 +164,7 @@ const menuData = {
             categoryId: 3,
             name: "啤酒花Chill Highball",
             price: 32,
-            image: "images/hop-chill-highball.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYkv9.webp",
             description: "季节限定特饮，稀有啤酒花品种浸泡蒸馏制作的烧酒，加入苏打水带来清爽口感，冰块充足，适合夏日消暑",
             ingredients: "Chill Green啤酒花手工蒸馏烈酒、苏打水"
         },
@@ -173,7 +173,7 @@ const menuData = {
             categoryId: 3,
             name: "植物Chill Highball",
             price: 30,
-            image: "images/botanical-highball.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pExYi34.webp",
             description: "季节限定特饮，麦烧酒+天然植物蒸馏加入苏打水提升气泡感，冰镇后更显清爽。像一瓶香水，喝起来都是柠檬橙花草本香气",
             ingredients: "Chill Green植物手工蒸馏烈酒、苏打水"
         }
