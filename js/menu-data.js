@@ -4,19 +4,19 @@ const menuData = {
         {
             id: 1,
             name: "经典鸡尾酒",
-            image: "images/classic-cocktails.png",
+            image: "https://s21.ax1x.com/2025/05/20/pEx1aZT.webp",
             description: "传统经典，永不过时的鸡尾酒选择"
         },
         {
             id: 2,
             name: "来生专属",
-            image: "images/afterlife-specials.png",
+            image: "https://s21.ax1x.com/2025/05/20/pEx1ddU.webp",
             description: "独家配方，只在来生Afterlife才能品尝的特调"
         },
         {
             id: 3,
             name: "季节限定",
-            image: "images/seasonal-specials.png",
+            image: "https://s21.ax1x.com/2025/05/20/pEx1woF.webp",
             description: "限时供应，把握当季最佳风味"
         }
     ],
@@ -45,7 +45,7 @@ const menuData = {
             categoryId: 1,
             name: "青珊瑚",
             price: 25,
-            image: "images/blue-coral.jpg",
+            image: "https://s21.ax1x.com/2025/05/20/pEx1zWj.webp",
             description: "荣获1950年第二次日本饮料大赛冠军的鸡尾酒，由名古屋市调酒师鹿野彦司先生创造。清新薄荷与金酒的绝妙组合，柠檬汁增添一丝酸爽，视觉与味觉的双重享受",
             ingredients: "金酒、绿薄荷利口酒、柠檬汁"
         },
