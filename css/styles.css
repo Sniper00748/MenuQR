@@ -128,16 +128,19 @@ body {
     font-size: 0.9rem;
 }
 
-#back-button {
+
+
+#back-button, .back-button {
     padding: 8px 16px;
     border-radius: 20px;
     background: linear-gradient(90deg, #8a2be2, #e52e71);
     color: white;
     border: none;
     transition: all 0.3s ease;
+    margin-bottom: 20px; /* 增加底部间距 */
 }
 
-#back-button:hover {
+#back-button:hover, .back-button:hover {
     background: linear-gradient(90deg, #e52e71, #8a2be2);
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(229, 46, 113, 0.4);
