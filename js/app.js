@@ -51,6 +51,9 @@ document.addEventListener('DOMContentLoaded', function() {
         mainMenuContainer.style.display = 'none';
         detailViewContainer.style.display = 'block';
         
+        // 显示菜品列表
+        menuItemsContainer.style.display = 'block';
+        
         // 滚动到顶部
         window.scrollTo(0, 0);
     }
@@ -81,9 +84,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `;
             
-            // 添加点击事件处理，在移动设备上优化滚动体验
-            if (window.innerWidth <= 768) {
-                menuItem.addEventListener('click', function(e) {
+            // 添加点击事件处理
+            menuItem.addEventListener('click', function(e) {
+                // 菜品点击事件处理
+                
+                // 在移动设备上优化滚动体验
+                if (window.innerWidth <= 768) {
                     // 只有当点击的是卡片而不是滚动操作时才执行
                     if (e.target.closest('.card-body')) {
                         // 计算元素顶部到视口顶部的距离
@@ -93,11 +99,28 @@ document.addEventListener('DOMContentLoaded', function() {
                             this.scrollIntoView({behavior: 'smooth'});
                         }
                     }
-                });
-            }
+                }
+            });
             
             menuItemsContainer.appendChild(menuItem);
         });
+        
+        // 添加底部返回菜单按钮
+        const bottomBackButton = document.createElement('div');
+        bottomBackButton.className = 'mt-4 mb-5';
+        bottomBackButton.innerHTML = `
+            <button class="back-button btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> 返回菜单
+            </button>
+        `;
+        
+        // 添加点击事件，返回主菜单
+        bottomBackButton.querySelector('.back-button').addEventListener('click', function() {
+            detailViewContainer.style.display = 'none';
+            mainMenuContainer.style.display = 'block';
+        });
+        
+        menuItemsContainer.appendChild(bottomBackButton);
         
         // 在移动设备上，添加滚动监听以优化单屏显示体验
         if (window.innerWidth <= 768) {

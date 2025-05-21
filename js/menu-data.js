@@ -108,7 +108,7 @@ const menuData = {
             categoryId: 1,
             name: "龙舌兰日出（新手友好）",
             price: 25,
-            image: "images/tequila-sunrise.jpg",
+            image: "https://s21.ax1x.com/2025/05/21/pExgbdO.webp",
             description: "如同墨西哥日出般绚丽的层次感，龙舌兰的烈性与橙汁的甜美，红石榴糖浆点缀如朝霞",
             ingredients: "龙舌兰、橙汁、红石榴糖浆"
         },
@@ -117,7 +117,7 @@ const menuData = {
             categoryId: 1,
             name: "玛格丽特",
             price: 25,
-            image: "images/margarita.jpg",
+            image: "https://s21.ax1x.com/2025/05/21/pExgqoD.webp",
             description: "1949年召开的美国国民鸡尾酒大赛的入选作品，由约翰·迪莱莎设计调制。为了纪念他不幸去世的恋人玛格丽特而取名的一款鸡尾酒。杯子用盐装饰出冰霜代表着泪水，龙舌兰的烈性与青柠的酸爽，君度增添一丝甜美",
             ingredients: "龙舌兰、君度、青柠汁"
         },
@@ -126,7 +126,7 @@ const menuData = {
             categoryId: 1,
             name: "长岛冰茶",
             price: 35,
-            image: "images/long-island.jpg",
+            image: "https://s21.ax1x.com/2025/05/21/pExgjWd.webp",
             description: "据说在二十世纪二十年代美国禁酒令期间，酒保将烈酒与可乐混成一杯看似茶的饮品。另一种说是在1972年，由长岛橡树滩客栈的酒保发明了这种以四种基酒混制出来的饮料。四种基酒的完美融合，口感如同冰茶般顺滑，却蕴含着强大的力量",
             ingredients: "金酒、伏特加、朗姆、龙舌兰、君度、柠檬汁、可乐"
         },
@@ -145,7 +145,7 @@ const menuData = {
             categoryId: 2,
             name: "杰克·威尔斯",
             price: 30,
-            image: "images/jackie-welles.jpg",
+            image: "https://s21.ax1x.com/2025/05/21/pExgOFe.webp",
             description: "夜城霓虹下的烈焰灵魂，酸爽清冽带着“一点爱”，致敬夜之城那位真正的大人物",
             ingredients: "伏特加、青柠汁、干姜水、樱花可乐"
         },
@@ -154,7 +154,7 @@ const menuData = {
             categoryId: 2,
             name: "强尼·银手",
             price: 35,
-            image: "https://s21.ax1x.com/2025/05/20/pEx8f8H.webp",
+            image: "https://s21.ax1x.com/2025/05/21/pExgXJH.webp",
             description: "如同传奇摇滚歌手的个性，龙舌兰的烈性与墨西哥啤酒的清爽，辣椒带来的刺激如同银手的反叛精神",
             ingredients: "龙舌兰、龙舌兰糖浆、苦精、墨西哥啤酒、辣椒"
         },
