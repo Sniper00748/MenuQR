@@ -158,6 +158,33 @@ const menuData = {
             description: "如同传奇摇滚歌手的个性，龙舌兰的烈性与墨西哥啤酒的清爽，辣椒带来的刺激如同银手的反叛精神",
             ingredients: "龙舌兰、龙舌兰糖浆、苦精、墨西哥啤酒、辣椒"
         },
+        {
+            id: 204,
+            categoryId: 2,
+            name: "丽贝卡（即将上市）",
+            price: "待定",
+            image: "https://s21.ax1x.com/2025/05/23/pEzsdyV.webp",
+            description: " 如同她不加掩饰的直率性格，在你放松警惕的瞬间，引爆你的感官",
+            ingredients: "暂定：干型朗姆、梅斯卡尔、樱桃利口酒、覆盆子糖浆、柠檬汁、苦精"
+        },
+        {
+            id: 205,
+            categoryId: 2,
+            name: "露西（即将上市）",
+            price: "待定",
+            image: "https://s21.ax1x.com/2025/05/23/pEzswLT.webp",
+            description: "冷静而难以捉摸，柔情是她深藏心底的月球之梦。带你一同挣脱引力，飞向那遥远而宁静的彼端",
+            ingredients: "暂定：伏特加、接骨木花利口酒、葡萄柚汁、白桃糖浆、干型起泡酒、橙味苦精"
+        },
+        {
+            id: 206,
+            categoryId: 2,
+            name: "亚当·重锤（即将上市）",
+            price: "待定",
+            image: "https://s21.ax1x.com/2025/05/23/pEzsaQ0.webp",
+            description: "感受荒坂铁拳的冰冷重量！钢铁壁垒，每一滴都散发着引擎般的低吼和毫不留情的苦涩。这杯“重锤”不讲情面，只讲力量——你，承受得起吗？",
+            ingredients: "暂定：日本伏特加、黑朗姆酒、咖啡利口酒、苦精"
+        },
         // 季节限定
         {
             id: 301,
