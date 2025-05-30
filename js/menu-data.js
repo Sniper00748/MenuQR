@@ -170,7 +170,7 @@ const menuData = {
         {
             id: 204,
             categoryId: 2,
-            name: "丽贝卡（即将上市）",
+            name: "丽贝卡",
             price: "35",
             image: "https://s21.ax1x.com/2025/05/30/pVpv3WQ.webp",
             description: " 如同她不加掩饰的直率性格，在你放松警惕的瞬间，引爆你的感官",
