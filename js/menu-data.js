@@ -80,7 +80,7 @@ const menuData = {
             id: 107,
             categoryId: 1,
             name: "止痛药",
-            price: 28,
+            price: 25,
             image: "https://s21.ax1x.com/2025/05/20/pExUWPf.webp",
             description: "热带风情的经典调酒，朗姆酒的醇厚与果汁的甜美，椰浆增添丝滑口感",
             ingredients: "朗姆、橙汁、菠萝汁、椰浆"
