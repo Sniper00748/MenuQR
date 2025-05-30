@@ -80,7 +80,7 @@ const menuData = {
             id: 107,
             categoryId: 1,
             name: "止痛药",
-            price: 25,
+            price: 28,
             image: "https://s21.ax1x.com/2025/05/20/pExUWPf.webp",
             description: "热带风情的经典调酒，朗姆酒的醇厚与果汁的甜美，椰浆增添丝滑口感",
             ingredients: "朗姆、橙汁、菠萝汁、椰浆"
@@ -171,8 +171,8 @@ const menuData = {
             id: 204,
             categoryId: 2,
             name: "丽贝卡（即将上市）",
-            price: "待定",
-            image: "https://s21.ax1x.com/2025/05/23/pEzsdyV.webp",
+            price: "35",
+            image: "https://s21.ax1x.com/2025/05/30/pVpv3WQ.webp",
             description: " 如同她不加掩饰的直率性格，在你放松警惕的瞬间，引爆你的感官",
             ingredients: "暂定：干型朗姆、梅斯卡尔、樱桃利口酒、覆盆子糖浆、柠檬汁、苦精"
         },
