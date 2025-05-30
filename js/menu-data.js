@@ -174,7 +174,7 @@ const menuData = {
             price: "35",
             image: "https://s21.ax1x.com/2025/05/30/pVpv3WQ.webp",
             description: " 如同她不加掩饰的直率性格，在你放松警惕的瞬间，引爆你的感官",
-            ingredients: "暂定：干型朗姆、梅斯卡尔、樱桃利口酒、覆盆子糖浆、柠檬汁、苦精"
+            ingredients: "干型朗姆、梅斯卡尔、樱桃利口酒、覆盆子糖浆、柠檬汁、苦精"
         },
         {
             id: 205,
