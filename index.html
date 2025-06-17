@@ -23,30 +23,46 @@
             <h2 class="text-center mb-4 gradient-text">我们的酒单</h2>
             
             <div class="row row-cols-1 row-cols-md-2 g-4" id="menu-categories">
-                <!-- 菜单类别将通过JavaScript动态加载 -->
+                <div class="col">
+                    <a href="classic.html" class="text-decoration-none">
+                        <div class="card category-card shadow-sm">
+                            <img src="https://s21.ax1x.com/2025/05/20/pEx8gUO.webp" class="card-img-top category-image" alt="经典鸡尾酒">
+                            <div class="card-body">
+                                <h5 class="card-title">经典鸡尾酒</h5>
+                                <p class="card-text">传统经典，永不过时的鸡尾酒选择</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="exclusive.html" class="text-decoration-none">
+                        <div class="card category-card shadow-sm">
+                            <img src="https://s21.ax1x.com/2025/05/20/pEx8yb6.webp" class="card-img-top category-image" alt="来生专属">
+                            <div class="card-body">
+                                <h5 class="card-title">来生专属</h5>
+                                <p class="card-text">独家配方，只在来生Afterlife才能品尝的特调</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="seasonal.html" class="text-decoration-none">
+                        <div class="card category-card shadow-sm">
+                            <img src="https://s21.ax1x.com/2025/05/20/pEx8h2d.webp" class="card-img-top category-image" alt="季节限定">
+                            <div class="card-body">
+                                <h5 class="card-title">季节限定</h5>
+                                <p class="card-text">限时供应，把握当季最佳风味</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
         
-        <!-- 详情页面 -->
-        <div id="detail-view" class="menu-container" style="display: none;">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <button id="back-button" class="btn btn-outline-secondary">
-                    <i class="bi bi-arrow-left"></i> 返回菜单
-                </button>
-                <h2 id="category-title" class="mb-0">类别标题</h2>
-                <div style="width: 40px;"></div> <!-- 占位元素，保持标题居中 -->
-            </div>
-            
-            <!-- 菜品详情页面内容 -->
-            
-            <div class="row row-cols-1 g-4" id="menu-items">
-                <!-- 菜品项目将通过JavaScript动态加载 -->
-            </div>
-        </div>
+
     </div>
 
     <!-- 脚本引用 -->
-    <script src="js/menu-data.js"></script>
-    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
