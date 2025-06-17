@@ -25,13 +25,38 @@ body {
     display: inline-block;
 }
 
+/* 卡片文字样式 */
+.card-text {
+    color: #a0aec0 !important;
+}
+
+.text-muted {
+    color: #c0c0c0 !important;
+}
+
+/* 分类标题样式 */
+.card-title {
+    color: #e0e0e0 !important;
+}
+
+/* 子页面标题渐变色 */
+.category-title {
+    background: linear-gradient(90deg, #ff8a00, #e52e71, #8a2be2);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textGradient 5s ease infinite;
+    font-weight: bold;
+}
+
 /* Logo样式 */
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 .bar-logo {
