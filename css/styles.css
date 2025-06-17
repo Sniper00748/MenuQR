@@ -31,10 +31,14 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .bar-logo {
-    height: 150px;
+    height: 12vw;
+    max-height: 150px;
+    min-height: 80px;
+    width: auto;
     margin-right: 15px;
 }
 
